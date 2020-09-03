@@ -11,9 +11,9 @@
        android:layout_width="wrap_content"
        android:layout_height="wrap_content"
        android:layout_gravity="center"
-       android:text="WELCOME TO HOME FRAGMENT"
+       android:text="@string/welcome"
        android:textColor="#ffffff"
-       android:textSize="60dp"
+       android:textSize="60sp"
 
        />
 

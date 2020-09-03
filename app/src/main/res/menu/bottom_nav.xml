@@ -3,16 +3,16 @@
     <item
         android:id="@+id/home"
         android:icon="@drawable/ic_action_home"
-        android:title="home" />
+        android:title="@string/home" />
 
     <item
         android:id="@+id/recycle"
         android:icon="@drawable/ic_action_login"
-        android:title="RecyclerView" />
+        android:title="@string/recyclerview" />
 
     <item
         android:id="@+id/login"
         android:icon="@drawable/ic_action_profile"
-        android:title="login" />
+        android:title="@string/login" />
 
 </menu>

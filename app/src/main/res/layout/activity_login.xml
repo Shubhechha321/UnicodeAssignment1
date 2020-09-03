@@ -26,11 +26,11 @@
         android:ems="10"
         android:textSize="18sp"
         android:textColor="#fff"
-        android:hint="Id"
+        android:hint="@string/id"
         android:textColorHint="#fff"
         android:inputType="textPersonName"
-        android:drawableLeft="@drawable/ic_action_user"
-        />
+        android:drawableStart="@drawable/ic_action_user"
+        android:autofillHints="Id" />
 
     <EditText
         android:id="@+id/idPass"
@@ -42,7 +42,7 @@
         android:ems="10"
         android:textSize="18sp"
         android:textColor="#fff"
-        android:hint="Password"
+        android:hint="@string/password"
         android:textColorHint="#fff"
         android:inputType="textPassword"
         android:drawableLeft="@drawable/ic_action_pass"
@@ -119,7 +119,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Echo"
+            android:text="@string/echo"
             android:textSize="16sp"
             android:textColor="#fff"
             android:layout_centerInParent="true"/>

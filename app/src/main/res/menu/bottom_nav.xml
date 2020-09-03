@@ -6,13 +6,13 @@
         android:title="home" />
 
     <item
-        android:id="@+id/login"
+        android:id="@+id/profile"
         android:icon="@drawable/ic_action_login"
-        android:title="login" />
+        android:title="RecyclerView" />
 
     <item
-        android:id="@+id/profile"
+        android:id="@+id/login"
         android:icon="@drawable/ic_action_profile"
-        android:title="profile" />
+        android:title="login" />
 
 </menu>

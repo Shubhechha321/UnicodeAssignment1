@@ -34,7 +34,7 @@ class MainActivity : AppCompatActivity() {
                         .setTransition(FragmentTransaction.TRANSIT_FRAGMENT_OPEN)
                         .commit()
                 }
-                R.id.profile ->{
+                R.id.recycle ->{
                     recyclerViewFragment = RecyclerViewFragment()
                     supportFragmentManager
                         .beginTransaction()

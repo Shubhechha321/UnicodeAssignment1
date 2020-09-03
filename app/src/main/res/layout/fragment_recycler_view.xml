@@ -6,11 +6,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="#002366"
     tools:context=".RecyclerViewFragment">
-    <com.google.android.material.appbar.CollapsingToolbarLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/colorPrimaryDark"
-        app:title="FRUITS"/>
+
     <androidx.recyclerview.widget.RecyclerView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
